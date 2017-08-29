@@ -1,0 +1,7 @@
+name: GrandTheftMinecart
+main: me.dablakbandit.grandtheftminecart.GrandTheftMinecart
+version: 1.0
+author: Dablakbandit
+description: Add GTA-Features to Minecraft
+depend: [DabCore]
+softdepend: [CrackShot, MVdWPlaceholderAPI]

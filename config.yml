@@ -1,0 +1,53 @@
+# 
+#         ___  ____    __    _  _  ____     ____  _   _  ____  ____  ____         #
+#        / __)(  _ \  /__\  ( \( )(  _ \   (_  _)( )_( )( ___)( ___)(_  _)        #
+#       ( (_-. )   / /(__)\  )  (  )(_) )    )(   ) _ (  )__)  )__)   )(          #  
+#        \___/(_)\_)(__)(__)(_)\_)(____/    (__) (_) (_)(____)(__)   (__)         # 
+#               __  __  ____  _  _  ____  ___    __    ____  ____                 #
+#              (  \/  )(_  _)( \( )( ___)/ __)  /__\  (  _ \(_  _)                #
+#               )    (  _)(_  )  (  )__)( (__  /(__)\  )   /  )(                  #  
+#              (_/\/\_)(____)(_)\_)(____)\___)(__)(__)(_)\_) (__)                 #
+#                                                                                 #
+###################################################################################
+#
+Command: gtm
+
+MobNameVisible: false
+
+Spawn:
+  ONESTAR:
+    Officer: 2
+    Sniper: 0
+    Swat: 0
+  TWOSTAR:
+    Officer: 4
+    Sniper: 0
+    Swat: 0
+  THREESTARS:
+    Officer: 6
+    Sniper: 3
+    Swat: 0
+  FOURSTARS:
+    Officer: 0
+    Sniper: 2
+    Swat: 4
+  FIVESTARS:
+    Officer: 0
+    Sniper: 4
+    Swat: 8
+
+Cooldown:
+  ONESTAR: 40
+  TWOSTAR: 60
+  THREESTARS: 80
+  FOURSTARS: 100
+  FIVESTARS: 120
+
+Condition:
+  ATTACKENTITY: 0
+  KILLENTITY: 0
+  ATTACKPLAYER: 0
+  KILLPLAYER: 1
+  STEALHORSE: 1
+  ATTACKPOLICE: 2
+  KILLPOLICE: 3
